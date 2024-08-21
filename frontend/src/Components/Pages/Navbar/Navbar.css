@@ -1,0 +1,15 @@
+.navbar {
+  /* border: 1px solid red; */
+  background-color: #0b093a;
+  padding: 16px 16px;
+  font-size: 20px;
+}
+
+.link > span {
+  color: #ffffff;
+}
+
+.link > span > span {
+  color: #378a9b;
+  text-decoration: underline;
+}
