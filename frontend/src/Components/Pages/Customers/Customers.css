@@ -1,0 +1,22 @@
+.total_sales,
+.sales_growth {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.total_sales_over_time,
+.sales_growth_rate_over_time {
+  /* border: 1px solid red; */
+  width: 98%;
+  margin: 50px auto;
+}
+
+.daily,
+.monthly,
+.quarterly,
+.yearly {
+  font-size: 20px;
+  color: rgb(0, 110, 255);
+  margin-top: 24px;
+  /* border: 1px solid gray; */
+}

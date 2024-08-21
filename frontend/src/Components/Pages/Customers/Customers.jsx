@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Customers.css";
-import apiFetch from '../Api/Api';
-import DynamicChart from '../Pages/Chart/Chart';
+import apiFetch from '../../Api/Api';
+import DynamicChart from '../Chart/Chart';
 
 export default function Customers() {
     const [orderData, setOrderData] = useState({
